@@ -59,7 +59,7 @@ p {
 }
 
 img {
-    width: 300px; /* Ajuste o tamanho conforme necessário */
+    width: 300px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -74,19 +74,6 @@ img {
 }
 
 .small-images img {
-    width: 150px; /* Ajuste para manter o tamanho das imagens menores */
+    width: 150px;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Rodapé */
-footer {
-    margin-top: 20px;
-    padding: 15px;
-    background: #0073e6;
-    color: white;
-    text-align: center;
-    width: 100%;
-    font-weight: bold;
-}
+    border-radius: 10
