@@ -1,31 +1,36 @@
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #222;
+    background-color: #f4f4f4; /* Fundo claro para um visual mais limpo */
     text-align: center;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+/* Cabeçalho azul */
 header {
     background-color: #0073e6;
     color: white;
     padding: 20px;
     font-size: 24px;
+    font-weight: bold;
 }
 
+/* Caixa principal branca */
 .container {
     width: 80%;
     margin: 20px auto;
-    background: #333;
+    background: white;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Organização das imagens */
 .image-group {
     display: flex;
     justify-content: center;
@@ -34,12 +39,13 @@ header {
     margin: 20px 0;
 }
 
+/* Estilos das imagens */
 img {
     max-width: 30%;
     height: auto;
-    border-radius: 10px;
-    border: 3px solid #0073e6; /* Contorno azul nas imagens */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border-radius: 10px; /* Borda arredondada */
+    border: 3px solid #0073e6; /* Contorno azul */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -47,6 +53,7 @@ img:hover {
     transform: scale(1.05);
 }
 
+/* Rodapé */
 footer {
     margin-top: auto;
     padding: 10px;
@@ -56,4 +63,5 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    font-weight: bold;
 }
