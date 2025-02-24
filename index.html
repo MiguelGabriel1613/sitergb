@@ -28,6 +28,142 @@
             <img src="fotos_rgb/d424a270-302e-4050-8ddd-3a2509a06683.webp" alt="Exemplo do modelo RGB">
             <img src="fotos_rgb/5b43fb85-f40a-4359-a67d-654528a9b7f1.webp" alt="Modelo RGB aditivo">
             <img src="fotos_rgb/da7f1de0-98b2-478a-b84a-cebeaa0520e6.webp" alt="Esquema RGB">
+            <p>Um pixel é a menor unidade da imagem digital. É um quadradinho colorido! Quando se junta vários e vários
+                pixels um do lado do outro, forma-se uma imagem. É tipo um mosaico.</p>
+            <p>Mas vamos voltar ao pixel, um único quadradinho: cada pixel geralmente é formado por 3 subpixels: o
+                vermelho (R), o verde (G) e o azul (B). Esses subpixels funcionam como lâmpadas coloridas.<sup>4</sup>
+            </p>
+            <p>Quando os subpixels são “acesos” dentro do pixel, a mistura das luzes dos subpixels pode gerar uma cor
+                específica. Por isso chamamos esse método de “aditivo”, porque vamos “adicionando” luz para gerar uma
+                cor diferente. </p>
+            <p>Os subpixels são ativados em diferentes intensidades. Por ser de âmbito digital, cada um deles são
+                representados por bits, ativados em uma faixa de 0 (totalmente desligado) até 255 (totalmente ligado).
+            </p>
+            <p>CURIOSIDADE: o olho humano não funciona de forma linear! Isso significa que 128 não é interpretado como
+                “metade do brilho” da luz do subpixel. Para corrigir a diferença entre a cor linear (do monitor) e a
+                percepção do olho humano, os monitores aplicam a “correção gama, que equilibra a luminosidade da imagem
+                para parecer mais natural”. Mas isso é assunto para outra aula... </p>
+            <section id="tabela-cores">
+                <p>Aqui está uma tabela com cores e valores teóricos no sistema RGB:</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Nome da Cor</th>
+                            <th>R</th>
+                            <th>G</th>
+                            <th>B</th>
+                            <th>RGB Completo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="preto">
+                            <td>Preto</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>rgb(0, 0, 0)</td>
+                        </tr>
+                        <tr id="branco">
+                            <td>Branco</td>
+                            <td>255</td>
+                            <td>255</td>
+                            <td>255</td>
+                            <td>rgb(255, 255, 255)</td>
+                        </tr>
+                        <tr id="vermelho">
+                            <td>Vermelho</td>
+                            <td>255</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>rgb(255, 0, 0)</td>
+                        </tr>
+                        <tr id="verde">
+                            <td>Verde</td>
+                            <td>0</td>
+                            <td>255</td>
+                            <td>0</td>
+                            <td>rgb(0, 255, 0)</td>
+                        </tr>
+                        <tr id="azul">
+                            <td>Azul</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>255</td>
+                            <td>rgb(0, 0, 255)</td>
+                        </tr>
+                        <tr id="amarelo">
+                            <td>Amarelo</td>
+                            <td>255</td>
+                            <td>255</td>
+                            <td>0</td>
+                            <td>rgb(255, 255, 0)</td>
+                        </tr>
+                        <tr id="ciano">
+                            <td>Ciano</td>
+                            <td>0</td>
+                            <td>255</td>
+                            <td>255</td>
+                            <td>rgb(0, 255, 255)</td>
+                        </tr>
+                        <tr id="magenta">
+                            <td>Magenta</td>
+                            <td>255</td>
+                            <td>0</td>
+                            <td>255</td>
+                            <td>rgb(255, 0, 255)</td>
+                        </tr>
+                        <tr id="laranja">
+                            <td>Laranja</td>
+                            <td>255</td>
+                            <td>165</td>
+                            <td>0</td>
+                            <td>rgb(255, 165, 0)</td>
+                        </tr>
+                        <tr id="roxo-escuro">
+                            <td>Roxo Escuro</td>
+                            <td>128</td>
+                            <td>0</td>
+                            <td>128</td>
+                            <td>rgb(128, 0, 128)</td>
+                        </tr>
+                        <tr id="azul-claro">
+                            <td>Azul Claro</td>
+                            <td>135</td>
+                            <td>206</td>
+                            <td>250</td>
+                            <td>rgb(135, 206, 250)</td>
+                        </tr>
+                        <tr id="verde-musgo">
+                            <td>Verde Musgo</td>
+                            <td>85</td>
+                            <td>107</td>
+                            <td>47</td>
+                            <td>rgb(85, 107, 47)</td>
+                        </tr>
+                        <tr id="rosa-claro">
+                            <td>Rosa Claro</td>
+                            <td>255</td>
+                            <td>182</td>
+                            <td>193</td>
+                            <td>rgb(255, 182, 193)</td>
+                        </tr>
+                        <tr id="cinza-medio">
+                            <td>Cinza Médio</td>
+                            <td>169</td>
+                            <td>169</td>
+                            <td>169</td>
+                            <td>rgb(169, 169, 169)</td>
+                        </tr>
+                        <tr id="marrom-avermelhado">
+                            <td>Marrom Avermelhado</td>
+                            <td>139</td>
+                            <td>69</td>
+                            <td>19</td>
+                            <td>rgb(139, 69, 19)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
         </div>
 
         <h2>🖨️ O que é CMYK?</h2>
